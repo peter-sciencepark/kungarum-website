@@ -491,18 +491,11 @@ a:hover {
   align-items: start;
 }
 
-.photo-placeholder {
+.about-photo img {
   width: 100%;
-  aspect-ratio: 3 / 4;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
   border-radius: var(--radius-lg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--color-white);
-  font-family: var(--font-heading);
-  font-size: 1.2rem;
   box-shadow: var(--shadow-md);
+  object-fit: cover;
 }
 
 .about-text h3 {
