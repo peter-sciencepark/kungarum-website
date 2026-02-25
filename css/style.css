@@ -370,34 +370,12 @@ a:hover {
   box-shadow: var(--shadow-md);
 }
 
-.book-cover-placeholder {
+.book-cover img {
   width: 100%;
-  height: 280px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
-  color: var(--color-white);
-  font-family: var(--font-heading);
-  font-size: 1.5rem;
-  gap: 0.5rem;
-}
-
-.book-cover-placeholder--new {
-  background: linear-gradient(135deg, var(--color-accent) 0%, #e8b88a 100%);
-  color: var(--color-dark);
-}
-
-.book-cover-placeholder--adult {
-  background: linear-gradient(135deg, #1a2a3a 0%, #2d4a5a 100%);
-}
-
-.book-cover-placeholder em {
-  font-size: 0.9rem;
-  background: rgba(255, 255, 255, 0.2);
-  padding: 0.25rem 0.75rem;
-  border-radius: 20px;
+  height: 320px;
+  object-fit: contain;
+  background: var(--color-bg-alt);
+  padding: 1rem;
 }
 
 .book-info {
